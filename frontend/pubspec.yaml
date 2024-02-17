@@ -1,0 +1,45 @@
+name: frontend
+description: Finance application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_fonts: ^4.0.3
+  provider: ^6.0.5
+  shared_preferences: ^2.0.18
+  fl_chart: ^0.62.0
+  intl: ^0.18.0
+  url_launcher: ^6.1.10
+  http: ^0.13.5
+  shimmer: ^3.0.0
+  file_picker: ^5.3.1
+  firebase_core: ^2.14.0
+  firebase_messaging: ^14.6.3
+  flutter_cached_pdfview: ^0.4.0-nullsafety
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: 'assets/logo.png'
+  adaptive_icon_background: '#121212'
+  adaptive_icon_foreground: 'assets/foreground.png'
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
